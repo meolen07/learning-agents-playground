@@ -260,8 +260,6 @@ After training, each run directory under `results/<run_name>/` contains logs, pl
 ![Reward curve](results/cartpole_dqn/rewards.png)
 ![TD loss](results/cartpole_dqn/losses.png)
 
-> Plots are generated automatically during training. If images are missing locally, run the training commands above first.
-
 Typical outcomes on default configs (your results may vary with seed and hardware):
 
 - **FrozenLake (slippery):** Success rate improves gradually over thousands of episodes; learning is noisy due to stochastic transitions.
