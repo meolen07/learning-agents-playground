@@ -43,8 +43,8 @@ def main() -> None:
     st.caption("Visualize RL training logs — author: Huynh Mai Linh Nguyen")
 
     st.sidebar.header("Run Selection")
-    results_dir = st.sidebar.text_input("Results directory", str(DEFAULT_RESULTS_DIR))
-    results_path = Path(results_dir)
+    results_path = DEFAULT_RESULTS_DIR
+    st.sidebar.caption("Results directory: `results/`")
 
     runs = list_run_directories(results_path)
     if not runs:
