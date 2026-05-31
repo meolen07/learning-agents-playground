@@ -242,5 +242,3 @@ MIT License — see project repository for details.
 ## Author
 
 **Huynh Mai Linh Nguyen**
-
-Built as an educational RL playground for experimenting with classic and deep reinforcement learning in a reproducible, well-structured Python project.
