@@ -319,5 +319,5 @@ Smoke tests verify imports, agent save/load, metrics helpers, short Q-learning r
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) file. (If no LICENSE file is present in the repository, this project is intended to be released under the MIT License.)
+MIT License — see [LICENSE](LICENSE) file.
 
