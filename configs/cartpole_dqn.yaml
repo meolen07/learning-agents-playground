@@ -1,0 +1,26 @@
+# Environment
+env_id: CartPole-v1
+
+# Training
+episodes: 500
+seed: 42
+run_name: cartpole_dqn
+output_dir: results
+max_steps: 500
+warmup_steps: 1000
+train_freq: 4
+
+# DQN hyperparameters
+learning_rate: 0.001
+discount_factor: 0.99
+epsilon: 1.0
+epsilon_min: 0.01
+epsilon_decay: 0.995
+batch_size: 64
+buffer_capacity: 100000
+target_update_freq: 10
+hidden_dim: 128
+
+# Evaluation / plotting
+success_threshold: 195.0
+plot_window: 50

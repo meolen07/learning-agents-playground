@@ -1,0 +1,21 @@
+# Environment
+env_id: FrozenLake-v1
+map_name: "4x4"
+is_slippery: true
+
+# Training
+episodes: 5000
+seed: 42
+run_name: frozenlake_qlearning
+output_dir: results
+
+# Q-learning hyperparameters
+learning_rate: 0.1
+discount_factor: 0.99
+epsilon: 1.0
+epsilon_min: 0.05
+epsilon_decay: 0.995
+
+# Evaluation / plotting
+success_threshold: 0.0
+plot_window: 100
